@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+*/venv/
+**/venv/
+e-commerce-playwright/src/venv/
+
+# Playwright browser binaries
+**/playwright/driver/
+node_modules/
+
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+.DS_Store
